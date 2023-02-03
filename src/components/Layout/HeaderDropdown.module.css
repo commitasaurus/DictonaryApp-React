@@ -1,0 +1,10 @@
+.dropdown {
+  display: flex;
+  align-self: center;
+  gap: 1rem;
+}
+
+.dropdown__font {
+  color: #333;
+  font-size: 1rem;
+}

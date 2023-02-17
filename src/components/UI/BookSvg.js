@@ -1,9 +1,10 @@
 import React from "react";
 
 const BookSvg = (props) => {
+  const svgColor = !props.color && "#999";
   return (
     <svg
-      fill={`#999`}
+      fill={svgColor}
       width="50px"
       height="50px"
       viewBox="0 0 32 32"

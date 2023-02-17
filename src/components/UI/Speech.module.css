@@ -1,0 +1,55 @@
+.meanings {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.meanings li {
+  margin-left: 0.8rem;
+  font-size: 1.2rem;
+}
+.sub-header {
+  font-family: "Lora", sans-serif;
+  font-size: 1.1rem;
+  color: #777;
+}
+.header {
+  position: relative;
+  font-family: "Lobster";
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+.example {
+  font-size: 1.1rem;
+  color: #777;
+}
+.header::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  min-width: 90%;
+  max-width: 95%;
+  background-color: #dfdfdf;
+  height: 2px;
+}
+.synonyms-container {
+  font-family: "Lora", sans-serif;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.synonym {
+  font-size: 1.1rem;
+  color: #da77f2;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .header::after {
+    min-width: 80%;
+    max-width: 80%;
+  }
+} ;

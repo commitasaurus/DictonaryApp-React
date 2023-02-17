@@ -1,0 +1,21 @@
+.container {
+  cursor: pointer;
+  position: relative;
+  background: #eec0f9;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.container p {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 15px solid #9c36b5;
+}
+.audio {
+}
